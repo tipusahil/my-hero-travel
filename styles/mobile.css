@@ -1,0 +1,87 @@
+@media screen and (max-width: 576px) {
+    
+    /* nav responsive style start from here */
+    body{
+
+        padding:10px;
+    }
+    .nav{
+        padding: 0;
+justify-content: space-around;
+    }
+    
+    .nav .hide_for_mobile{
+        display:none;
+    }
+
+    .nav .hide_for_dekstop{
+        display: block;
+        font-size: 20px;
+    }
+
+    /* banner responsive */
+    .banner{
+    width: calc(100% - 20px);
+    padding: 10px;
+
+    } 
+
+.banner h1{
+    font-size: 2.5rem;
+    color:var(--bg-white-color);
+}
+
+.banner .banner_inputs_div{
+    display: flex;
+    flex-direction: column;
+}
+
+.banner input,select{
+ margin-bottom:15px ;
+    width: auto;
+}
+
+/* nav responsive end here */
+
+/* main tag responsive style start from here */
+
+.section2_popular_tour{
+    height: 100%;
+    flex-direction: column;
+    margin-top: 30px;
+}
+
+.section2_popular_tour .content_div_sec2{
+    height: 100%;
+    width: 90%;
+}
+
+
+/* sec 3 grid section start */
+
+.grid_rows{
+    display: grid;
+    grid-template-columns:1fr;
+padding: 10px;
+    
+}
+
+.grid_rows h3{
+    left: 40%;
+    top:40%
+}
+
+.card_grid{
+    border:2px solid red;
+display: flex;
+/* flex-direction: column; */
+flex-wrap: wrap;
+justify-content: center;
+margin: 10px;
+gap:10px;
+}
+
+/* main tag responsive style end here */
+
+
+}
