@@ -492,7 +492,8 @@ display: flex;
 .footer_content{
     width: 600px;
     height: auto;
-display: block;
+display: flex;
+flex-direction: column;
 text-align: center;
 margin: 50px 0;
 }

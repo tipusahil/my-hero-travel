@@ -21,13 +21,17 @@ justify-content: space-around;
 
     /* banner responsive */
     .banner{
-    width: calc(100% - 20px);
+        width: calc(100% - 20px);
+    /* width: calc(100% - 20px); */
     padding: 10px;
-
+height: auto;
+background-size: cover;
+background-position: center;
+border-radius: 20px;
     } 
 
 .banner h1{
-    font-size: 2.5rem;
+    font-size: 2.3rem;
     color:var(--bg-white-color);
 }
 
@@ -35,6 +39,7 @@ justify-content: space-around;
     display: flex;
     flex-direction: column;
 }
+
 
 .banner input,select{
  margin-bottom:15px ;
