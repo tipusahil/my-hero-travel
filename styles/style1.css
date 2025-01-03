@@ -67,11 +67,9 @@ header{
 
 /*  for mobile */
 .nav .icon_side_div{
-
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-
 }
 
 .nav .icon_side_div img{
