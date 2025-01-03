@@ -54,7 +54,6 @@ header{
     width: 100%;
     height: 100%;
     margin:0 auto;
-    border:2px inset red;
 }
 
 .nav{
@@ -127,7 +126,6 @@ color:var(--primary-color);
 .banner{
     width: 100%;
     height: 500px;
-    border:2px outset red;
 text-align: center;
 
 background:url(../Images/banner_cover.png)no-repeat;
@@ -140,9 +138,7 @@ align-content: center;
     padding: 10px;
     border-radius: 10px;
     border:0;
-
     width: 18%;
-
 }
 
 
@@ -177,9 +173,7 @@ main{
     width: 100%;
     height: 100%;
 max-width: 1200px;
-    border:2px outset green;
     margin:0 auto;
-
 }
 
 .section2_popular_tour{
@@ -188,13 +182,9 @@ max-width: 1200px;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    border:2px solid navy;
- 
-
 }
 .section2_popular_tour .content_div_sec2{
     padding: 10px;
-   border:2px solid red;
    width: 50%;
    height: 90%;
 }
@@ -271,12 +261,10 @@ max-width: 1200px;
 
 .sec4_why_choose{
     text-align: center;
-    border: 2px solid red;
     padding-bottom: 50px;
 }
 
 .card_grid{
-    border:2px solid red;
 display: flex;
 flex-wrap: wrap;
 justify-content: center;
@@ -286,7 +274,6 @@ gap:10px;
 
 .card_div{
 text-align: left;
-border:2px solid green;
 width: 523px;
 padding: 30px;
 background-color: #f9efe4a9;
@@ -304,27 +291,221 @@ background-color: #f3d1ab6c;
 border:2px solid #f3d1ab;
 }
 
+/* section 5 style start from here */
 .img_box{
-    background:url("../Images/grp1.png");
+    background:url("../Images/grp1.png") no-repeat;
+   background-size: cover;
     width: 100%;
-    height: 100%;
-    
+    height:auto;
 }
 
 
+.sec5_deal{
+    width: 100%;
+    height: 100%;
+    padding-bottom: 50px;
+    text-align: center;
+}
 
+.icons_div{
+    display: flex;
+    color:var(--primary-color)
+}
+.item{
+    display:flex;
+    align-items: center;
+    margin-right: 30px;
+    align-items: center;
+font-size: 30px;
+}
+
+.item p, .item i{
+    font-size: 1.25rem; 
+    padding: 10px;
+}
+
+.img_box{
+    display: flex;
+ justify-content:end;
+ margin-bottom: 15px;
+ border-radius: 20px;
+}
+
+.img_content_sec5{
+    background: rgba(255, 255, 255, 0.868);;
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    width: 650px;
+    height:300px;
+   margin: 50px;
+   margin-top: 80px;
+   border-radius: 20px;
+   border:3px solid white;
+}
+
+.img_content_sec5 button{
+    margin-top: 20px;
+    width: 150px;
+   padding: 15px 30px;
+}
+
+
+.deal_img2{
+    background:url("../Images/grp2.png") no-repeat;
+   background-size: cover;
+    width: 100%;
+    height:auto;
+    border:2px solid green;
+}
+
+.deal_img2 {
+    display: flex;
+ justify-content:start;
+}
+
+.deal_img3{
+    background:url("../Images/grp3.png") no-repeat;
+   background-size: cover;
+    width: 100%;
+    height:auto;
+}
+
+.sec5_deal .sec5_btn_last{
+margin-top: 20px;
+}
+
+
+/* section 6, video er section starting style from here */
+.sec6_video{
+    width: 100%;
+    height: auto;
+
+    display: flex;
+    justify-content: space-between;
+}
+.sec6_video .sec6_content{
+    width:45%;
+margin-right: 20px;
+}
+
+.iframe{
+    border-radius: 20px;
+    width: 45%;
+    height: 360px;
+}
+
+
+/* form section styles start from here */
+.form_sec7{
+    width:100%;
+    height: 100%;
+    margin:100px 0;
+    display: flex;
+    justify-content: space-between;
+  padding: 20px 0;
+}
+
+
+form{
+    justify-content: center;
+    border:2px solid var(--primary-color);
+    border-radius: 10px;
+    width: 50%;
+    margin:0px 20px;
+padding: 10px;
+}
+
+form hr{
+   color:black;
+}
+
+.inputs{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+
+}
+input,[type="submit"]{
+    margin-bottom: 10px;
+    padding: 20px;
+    width: 80%;
+   font-size: 20px;
+    border-radius: 10px;
+    border:0;
+    background-color: rgb(231, 230, 230);
+}
+
+[type="submit"]{
+    background-color: var(--primary-color);
+}
+
+input::placeholder{
+    font-size: 20px;  
+}
+
+.form_img_div{
+    width: 50%;
+    position:relative;
+}
+
+
+.form_img_div img{
+   width: 100%;
+   height: 100%;
+}
+
+.travel_lugo_div{
+ position: absolute;
+ right: -8px;
+ bottom:55px;
+ transform: rotate(-40deg);
+
+ background-color: var(--primary-color);
+ columns: var(--bg-white-color);
+ border-radius: 20px;
+ border: 2px solid rgb(250, 252, 250);
+ text-align: center;
+ padding: 10px;
+}
+.travel_lugo_div h2,h3{
+color:white;
+margin: 0;
+padding: 0;
+}
 /* main tag style end here */
 
-
+ 
 /* footer tag styles start from here */
-/* footer{
+footer{
     width: 100%;
     height: 100%;
 max-width: 1200px;
-    display: flex;
-    justify-content: space-around;
+display: flex;
+    justify-content: center;
     align-items: center;
-    border:2px outset green;
-    padding: 20px;
-} */
+    margin: 0 auto;
+}
+
+
+.footer_content{
+    width: 600px;
+    height: auto;
+display: block;
+text-align: center;
+margin: 50px 0;
+}
+
+.footer_icons{
+    display: flex;
+    justify-content:center;
+}
+
+.footer_icons i{
+    margin-right: 20px;
+}
+.tipu{
+    color:black;
+}
 /* footer tag styles end   here */
